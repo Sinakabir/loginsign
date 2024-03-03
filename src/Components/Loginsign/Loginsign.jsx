@@ -24,8 +24,8 @@ const Loginsign = () => {
       </div>}
      
       <div className="bottom">
-        <div className="submit" onClick={()=>{setAction('Sign up')}}>Sign up</div>
-        <div className="submit" onClick={()=>{setAction('Login')}}>Login</div>
+        <div className={action==="Login"?'submit grey':'submit'} onClick={()=>{setAction('Sign up')}}>Sign up</div>
+        <div className={action==="Sign up"?'submit grey':'submit'} onClick={()=>{setAction('Login')}}>Login</div>
       </div>
     </div>
     </div>
