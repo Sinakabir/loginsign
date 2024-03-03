@@ -1,0 +1,54 @@
+.container{
+  background-color: white;
+  width: 350px;
+  text-align: center;
+}
+.container h1{
+  color: purple;
+}
+.underline{
+  width: 50px;
+  height: 2px;
+  background-color: purple;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 30px;
+}
+.inputs{
+  width: 100%;
+
+}
+.input{
+  display: flex;
+}
+.inputs input{
+  width: 100%;
+  margin: 10px ;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(218, 208, 208);
+  border-radius: 4px;
+}
+.lostpass{
+  text-align: left;
+  font-size: 15px;
+  color: grey;
+  margin-left: 10px;
+}
+.lostpass span{
+  color:purple;
+  
+}
+.bottom{
+  display: flex;
+ width: 100%;
+}
+.submit{
+  width: 50%;
+  margin: 20px;
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border-radius: 40px;
+}
